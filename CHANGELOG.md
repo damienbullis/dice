@@ -1,5 +1,12 @@
 # roll
 
+## 0.0.3
+
+### Patch Changes
+
+- Test 1
+- test 2
+
 ## 0.0.2
 
 ### Patch Changes
