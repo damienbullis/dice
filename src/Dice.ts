@@ -1,6 +1,6 @@
 type DiceType = 4 | 6 | 8 | 10 | 12 | 20 | 100 | string[];
 
-/** _Dice
+/** Dice
  * ---
  *
  * To roll `Polyhedral` dice or `Funky` dice.
