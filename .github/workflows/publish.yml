@@ -31,6 +31,6 @@ jobs:
         uses: changesets/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # Add this when ready to publish to npm: (also need to add npm token to secrets)
-        # with:
-        #   publish: pnpm run build
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        with:
+          publish: pnpm run build

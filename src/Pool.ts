@@ -1,5 +1,6 @@
-/** _Pool
+/** Pool
  * ---
+ *
  * For rolling multiple dice at once
  *
  * ---

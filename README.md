@@ -45,4 +45,4 @@ console.log(pool(20)); // will roll a d6 & d20, 20 times
 
 - [ ] Add error handling
 - [ ] Add tests
-- [ ] Publish to NPM
+- [x] Publish to NPM
