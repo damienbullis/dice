@@ -13,7 +13,7 @@ Dice is a simple dice roller package for:
 To roll dice, you can use the `Dice` function.
 
 ```javascript
-import { Dice } from "_dice";
+import { Dice } from "@damienbullis/dice";
 
 // Create some dice
 const d6 = Dice(6);
@@ -27,7 +27,7 @@ console.log(d6(3)); // will roll a d6, 3 times
 To roll a pool of dice, you can use the `Pool` function in conjunction with the `Dice` function.
 
 ```javascript
-import { Dice, Pool } from "_dice";
+import { Dice, Pool } from "@damienbullis/dice";
 
 const d6 = Dice(6);
 const d20 = Dice(20);
