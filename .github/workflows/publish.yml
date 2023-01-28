@@ -32,6 +32,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        # Add this when ready to publish to npm: (also need to add npm token to secrets)
         with:
           publish: pnpm run build
