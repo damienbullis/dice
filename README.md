@@ -4,6 +4,8 @@ Roll is a simple dice roller. For rolling basic polyhedral dice, and funky (cust
 
 ---
 
+Updating readme for testing purposes.
+
 ## Usage
 
 ```typescript
