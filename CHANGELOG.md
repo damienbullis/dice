@@ -1,5 +1,11 @@
 # roll
 
+## 0.1.0
+
+### Minor Changes
+
+- a423de4: Adds npm publish
+
 ## 0.0.5
 
 ### Patch Changes
