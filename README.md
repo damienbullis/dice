@@ -1,23 +1,48 @@
-# Roll
+# Dice
 
-Roll is a simple dice roller. For rolling basic polyhedral dice, and funky (custom) dice.
+Dice is a simple dice roller package for:
+
+- Rolling polyhedral dice
+- Rolling funky (custom) dice
+- Rolling pools of those dice
 
 ---
 
-Updating readme for testing purposes.
-
 ## Usage
 
-```typescript
-import { Dice, Pool } from "roll";
+To roll dice, you can use the `Dice` function.
 
-const dice = new Dice(6);
+```javascript
+import { Dice } from "_dice";
 
-const singleResult = dice.roll();
-const multipleResults = dice.roll(3);
+// Create some dice
+const d6 = Dice(6);
+const d20 = Dice(20);
 
-const pool = new Pool(dice, dice); // a pool made of 2 6 sided dice
-
-const poolResult = pool.roll(); // result will be an array of 2 numbers
-const poolResults = pool.roll(3); // result will be an array of 3 arrays of 2 numbers
+console.log(d6()); // will roll 1 d6
+console.log(d20()); // will roll 1 d20
+console.log(d6(3)); // will roll a d6, 3 times
 ```
+
+To roll a pool of dice, you can use the `Pool` function in conjunction with the `Dice` function.
+
+```javascript
+import { Dice, Pool } from "_dice";
+
+const d6 = Dice(6);
+const d20 = Dice(20);
+
+// Set up a pool of dice
+const pool = Pool(d6, d20);
+
+console.log(pool()); // will roll 1 d6 & d20
+console.log(pool(20)); // will roll a d6 & d20, 20 times
+```
+
+---
+
+## Roadmap
+
+- [ ] Add error handling
+- [ ] Add tests
+- [ ] Publish to NPM

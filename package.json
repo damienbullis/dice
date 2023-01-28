@@ -1,5 +1,5 @@
 {
-  "name": "roll",
+  "name": "@damienbullis/dice",
   "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
