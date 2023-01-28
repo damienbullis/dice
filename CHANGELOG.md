@@ -1,5 +1,11 @@
 # roll
 
+## 0.0.5
+
+### Patch Changes
+
+- 8e00673: Adds Dice and Pool and updates readme
+
 ## 0.0.4
 
 ### Patch Changes
