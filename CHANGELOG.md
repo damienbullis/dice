@@ -1,5 +1,11 @@
 # roll
 
+## 0.0.2
+
+### Patch Changes
+
+- e926210: This is testing changeset func
+
 ## 0.0.1
 
 ### Patch Changes
