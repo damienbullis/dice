@@ -1,6 +1,8 @@
+<img src="https://github.com/damienbullis/dice/blob/main/assets/banner.png?raw=true" alt="Title Banner for Dice" />
+
 # Dice
 
-Dice is a simple dice roller package for:
+Dice is a simple dice package for:
 
 - Rolling polyhedral dice
 - Rolling funky (custom) dice
