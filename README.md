@@ -1,8 +1,10 @@
-[![Dice Logo](./assets/banner.png?sanitize=true)](https://github.com/damienbullis/dice)
+<h1 align="center">
+<img src="./assets/banner.png" alt="Dice">
+</h1>
+
+<div align="center">
 
 <br>
-
-<div style="text-align:center">
 
 [![Stars](https://img.shields.io/github/stars/damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
 [![Downloads](https://img.shields.io/npm/dt/@damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
@@ -11,11 +13,7 @@
 [![Version](https://img.shields.io/github/package-json/version/damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
 [![Build](https://img.shields.io/github/actions/workflow/status/damienbullis/dice/main.yml?color=orange)](https://github.com/damienbullis/dice)
 
-</div>
-
 <br>
-
-<div style="text-align:center">
 
 <!-- <h2 style="font-size:2rem;"> 🎲 Comes with all the basic polyhedral dice. 🎲 </h2>
 <h2 style="font-size:2rem;"> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </h2>
