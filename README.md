@@ -15,9 +15,9 @@
 
 <br>
 
-<h2 style="font-size:2rem;"> 🎲 Comes with all the basic polyhedral dice 🎲 </h2>
-<h2 style="font-size:2rem;"> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </h2>
-<h2 style="font-size:2rem;"> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </h2>
+<h3> 🎲 Comes with all the basic polyhedral dice 🎲 </h3>
+<h3> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </h3>
+<h3> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </h3>
 <!-- <p font-size="2em"> 🎲 🎲 🎲 🎲 🎲 🎲 </p>
 
 <br>
