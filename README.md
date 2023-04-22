@@ -15,10 +15,10 @@
 
 <br>
 
-<!-- <h2 style="font-size:2rem;"> 🎲 Comes with all the basic polyhedral dice. 🎲 </h2>
+<h2 style="font-size:2rem;"> 🎲 Comes with all the basic polyhedral dice 🎲 </h2>
 <h2 style="font-size:2rem;"> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </h2>
-<h2 style="font-size:2rem;"> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </h2> -->
-<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
+<h2 style="font-size:2rem;"> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </h2>
+<!-- <p font-size="2em"> 🎲 🎲 🎲 🎲 🎲 🎲 </p>
 
 <br>
 
@@ -30,7 +30,7 @@ _**`Pools` is a simple helper for rolling multiple dice.**_
 
 <br>
 
-<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
+<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2> -->
 
 </div>
 
