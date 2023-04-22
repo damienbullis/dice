@@ -6,31 +6,21 @@
 
 <br>
 
-[![Stars](https://img.shields.io/github/stars/damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
-[![Downloads](https://img.shields.io/npm/dt/@damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
-[![Top Language](https://img.shields.io/github/languages/top/damienbullis/dice?logo=typescript&label=&logoColor=white&color=orange)](https:github.com/damienbullis/dice)
+<!-- [![Stars](https://img.shields.io/github/stars/damienbullis/dice?color=orange)](https://github.com/damienbullis/dice) -->
 
+[![Top Language](https://img.shields.io/github/languages/top/damienbullis/dice?logo=typescript&label=&logoColor=white&color=orange)](https:github.com/damienbullis/dice)
+[![Downloads](https://img.shields.io/npm/dt/@damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
 [![Version](https://img.shields.io/github/package-json/version/damienbullis/dice?color=orange)](https://github.com/damienbullis/dice)
+
+[![codecov](https://img.shields.io/codecov/c/gh/damienbullis/dice?color=orange&label=%20&logo=codecov&logoColor=white)](https://codecov.io/gh/damienbullis/dice)
 [![Build](https://img.shields.io/github/actions/workflow/status/damienbullis/dice/main.yml?color=orange)](https://github.com/damienbullis/dice)
 
+<!-- [![codecov](https://codecov.io/gh/damienbullis/dice/branch/adds-tests/graph/badge.svg?token=0KPV1FLKHU)](https://codecov.io/gh/damienbullis/dice) -->
 <br>
 
 <p> 🎲 Comes with all the basic polyhedral dice 🎲 </p>
 <p> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </p>
 <p> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </p>
-<!-- <p font-size="2em"> 🎲 🎲 🎲 🎲 🎲 🎲 </p>
-
-<br>
-
-_**Comes with all the basic polyhedral dice.**_
-
-_**Simple interface for creating custom or 'funky' dice**_
-
-_**`Pools` is a simple helper for rolling multiple dice.**_
-
-<br>
-
-<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2> -->
 
 </div>
 
