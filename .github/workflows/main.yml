@@ -23,13 +23,13 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm i --frozen-lockfile
 
-      - name: Lint and Build
-        run: pnpm run lint && pnpm run build
+      - name: Lint
+        run: pnpm lint
 
       - name: Test
-        run: pnpm run test -- --coverage
+        run: pnpm coverage
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
@@ -39,3 +39,6 @@ jobs:
         # flags: unittests
         # name: codecov-umbrella
         # fail_ci_if_error: true
+
+      - name: Build
+        run: pnpm build
