@@ -3,7 +3,9 @@ import { Dice, Pool } from "./index";
 
 describe("Pool", () => {
   it("should throw an error if any dice is not a function", () => {
-    expect(Pool(Dice(6), 2 as any, Dice(8))).toThrow(TypeError);
+    expect(() => {
+      Pool(Dice(6), 2 as any, Dice(8));
+    }).toThrow(TypeError);
   });
 
   it("should return an array containing the results of rolling each dice", () => {

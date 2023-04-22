@@ -2,6 +2,12 @@ import { describe, expect, expectTypeOf, it } from "vitest";
 import { Dice } from "./index";
 
 describe("Dice", () => {
+  it("should throw an error if any dice is not a function", () => {
+    expect(() => {
+      Dice([2, 2] as any);
+    }).toThrow(TypeError);
+  });
+
   describe("with number sides", () => {
     it("should return an array of numbers with length 1 by default", () => {
       const d4 = Dice(4);

@@ -1,5 +1,3 @@
-# Dice
-
 [![Dice Logo](./assets/banner.png?sanitize=true)](https://github.com/damienbullis/dice)
 
 <br>
@@ -22,7 +20,9 @@
 <!-- <h2 style="font-size:2rem;"> 🎲 Comes with all the basic polyhedral dice. 🎲 </h2>
 <h2 style="font-size:2rem;"> 🎲 Simple interface for creating custom or 'funky' dice 🎲 </h2>
 <h2 style="font-size:2rem;"> 🎲 Pools is a simple helper for rolling multiple dice 🎲 </h2> -->
-<h2 style="letter-spacing:1rem;font-size:2.5rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
+<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
+
+<br>
 
 _**Comes with all the basic polyhedral dice.**_
 
@@ -30,7 +30,9 @@ _**Simple interface for creating custom or 'funky' dice**_
 
 _**`Pools` is a simple helper for rolling multiple dice.**_
 
-<h2 style="letter-spacing:1rem;font-size:2.5rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
+<br>
+
+<h2 style="letter-spacing:1rem;font-size:2rem;"> 🎲 🎲 🎲 🎲 🎲 🎲 </h2>
 
 </div>
 
@@ -80,23 +82,25 @@ d8(3); // rolls three d8's
 
 ## Using Custom Dice
 
+_If you have a need for dice with symbols, multiple values per facing, or to change the probability curve._
+
 <br>
 
 ```javascript
-import { Dice, Pool } from "@damienbullis/dice";
-// Create some dice
-const d6 = Dice(6);
-const d10 = Dice(10);
-const d20 = Dice(20);
+import { Dice } from "@damienbullis/dice";
 
-// Create a custom pool of dice
-const pool = Pool(d6, d10, d20);
+// Create a custom die
+const SuccessDie = Dice([
+  "Success+Crit",
+  "Success",
+  "Success",
+  "Failure+Crit",
+  "Failure",
+  "Failure",
+]);
 
-pool(); // rolls the pool once
-// returns
-
-pool(2); // rolls the pool twice
-// returns
+console.log(SuccessDie()); // rolls the die once
+// returns [ "Failure+Crit" ]
 ```
 
 <br>
@@ -113,11 +117,13 @@ import { Dice, Pool } from "@damienbullis/dice";
 const d6 = Dice(6);
 const d20 = Dice(20);
 
-// Set up a pool of dice
+// Create a pool of dice
 const pool = Pool(d6, d20);
 
-console.log(pool());
-console.log(pool(20));
+console.log(pool()); // rolls the pool once
+// returns [ [ 3, 20 ] ]
+console.log(pool(2)); // rolls the pool twice
+// returns [ [ 6, 12 ], [ 1, 18 ] ]
 ```
 
 <br>
@@ -126,9 +132,14 @@ console.log(pool(20));
 
 # Roadmap
 
-- [ ] Add error handling
-- [ ] Add tests
+- [x] Add error handling
+- [x] Add tests
 - [x] Publish to NPM
+- [ ] Better Types\*
+- [ ] Custom Weights for Dice\*
+- [ ] Custom Random Number Generator's\*
+
+_\*Not sure about these yet..._
 
 <br>
 
