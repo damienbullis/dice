@@ -1,5 +1,5 @@
 import { describe, expect, expectTypeOf, it } from "vitest";
-import Dice from "./Dice";
+import { Dice } from "./index";
 
 describe("Dice", () => {
   describe("with number sides", () => {

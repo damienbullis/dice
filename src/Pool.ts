@@ -23,9 +23,10 @@ export default function Pool<T extends ((x?: number) => (string | number)[])[]>(
     const result = [];
     for (let i = 0; i < dice.length; i++) {
       const roll = dice[i];
-      if (typeof roll === "function") {
-        result.push(roll(x));
+      if (typeof roll !== "function") {
+        throw new TypeError("Dice must be a function");
       }
+      result.push(roll(x));
     }
     return result;
   };
