@@ -14,7 +14,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8
 
       - name: Setup node with pnpm cache
         uses: actions/setup-node@v3
@@ -23,7 +23,18 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm i --frozen-lockfile
 
-      - name: Lint and Build
-        run: pnpm run lint && pnpm run build
+      - name: Lint
+        run: pnpm lint
+
+      - name: Test
+        run: pnpm coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        # with:
+        #   token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Build
+        run: pnpm build
