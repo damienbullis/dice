@@ -1,5 +1,15 @@
 # roll
 
+## 0.2.0
+
+### Minor Changes
+
+- aa3c750: This updates readme, finishes test coverage, and adds error handling
+
+### Patch Changes
+
+- 5380f07: adds vitest and test for Dice.ts, also updates readme, and CI workflow with code coverage
+
 ## 0.1.0
 
 ### Minor Changes
