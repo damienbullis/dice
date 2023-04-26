@@ -9,6 +9,15 @@ export default defineConfig({
     coverage: {
       reporter: ["lcov", "text"],
       all: true,
+      exclude: [
+        "docs/**",
+        "coverage/**",
+        "dist/**",
+        "**/*.d.ts",
+        "**/*{.,-}test.{js,cjs,mjs,ts,tsx,jsx}",
+        "**/.{eslint,prettier}rc.{js,cjs,yml}",
+        "**/vite.config.*",
+      ],
     },
   },
 });

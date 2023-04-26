@@ -26,6 +26,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "private": false,
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
