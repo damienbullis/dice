@@ -87,7 +87,7 @@ const SuccessDie = Dice([
   "Failure",
 ]);
 
-console.log(SuccessDie()); // rolls the die once
+SuccessDie(); // rolls the die once
 // returns [ "Failure+Crit" ]
 ```
 
@@ -108,9 +108,9 @@ const d20 = Dice(20);
 // Create a pool of dice
 const pool = Pool(d6, d20);
 
-console.log(pool()); // rolls the pool once
+pool(); // rolls the pool once
 // returns [ [ 3, 20 ] ]
-console.log(pool(2)); // rolls the pool twice
+pool(2); // rolls the pool twice
 // returns [ [ 6, 12 ], [ 1, 18 ] ]
 ```
 
