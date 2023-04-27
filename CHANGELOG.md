@@ -1,5 +1,11 @@
 # roll
 
+## 0.2.2
+
+### Patch Changes
+
+- 4a44c0f: checking fix to package.json
+
 ## 0.2.1
 
 ### Patch Changes
