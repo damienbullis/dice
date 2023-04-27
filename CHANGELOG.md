@@ -1,5 +1,11 @@
 # roll
 
+## 0.2.1
+
+### Patch Changes
+
+- 06e3978: fix to npm bundle size
+
 ## 0.2.0
 
 ### Minor Changes
