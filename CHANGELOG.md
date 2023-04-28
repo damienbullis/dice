@@ -1,5 +1,12 @@
 # roll
 
+## 0.2.3
+
+### Patch Changes
+
+- 9402cc0: Just doing another build step in publish.yml
+- 9517c0b: another attempt to fix package dist
+
 ## 0.2.2
 
 ### Patch Changes
