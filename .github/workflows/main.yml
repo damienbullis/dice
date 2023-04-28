@@ -33,8 +33,12 @@ jobs:
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
-        # with:
-        #   token: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Build
         run: pnpm build
+
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist

@@ -13,10 +13,12 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8
+
       - name: Setup node with pnpm cache
         uses: actions/setup-node@v3
         with:
@@ -24,7 +26,13 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm i --frozen-lockfile
+
+      - name: Download artifact from CI
+        uses: actions/download-artifact@v2
+        with:
+          name: dist
+          path: dist
 
       - name: Create Release Pull Request or Publish
         id: changesets
