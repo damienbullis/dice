@@ -28,11 +28,8 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
 
-      - name: Download artifact from CI
-        uses: actions/download-artifact@v2
-        with:
-          name: dist
-          path: dist
+      - name: Build
+      run: pnpm build
 
       - name: Create Release Pull Request or Publish
         id: changesets
